@@ -1,0 +1,23 @@
+Steps to Record Data:
+
+1. Allocate a job (to run shell): salloc -A trn039 -S 0 -t 1:00:00  -N 1
+2. ./power.sh [AI script]
+3. ./process-data.sh [return file from power.sh] processed-[return file from power.sh]
+4. python3 test_plotting.py
+	- Enter filename: processed-[return file from power.sh]
+	- Enter unit for y-axis: (power=Watts, Energy=Joules)
+	- Enter number of plots: (This depends on the number of plots already made)
+	- Enter degree for trend line: (this one feels obvious)
+5. [In a new window] scp ihastings@odo.olcf.ornl.gov:/gpfs/wolf2/olcf/trn039/proj-shared/ih6/processed-[return file from power.sh].png ~/Downloads
+
+processed_diffusion.py_
+
+memory energy/power
+accel0_energy
+accel0_power
+accel3_energy
+accel3_power
+
+Experiments:
+1. Run both diffusion.py (base model) and diffusion2.py (refined model). Compare and contrast.
+2. AI Chain: Link whisper with music generator and see the results
