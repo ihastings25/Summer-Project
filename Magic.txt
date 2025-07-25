@@ -1,0 +1,83 @@
+Magic System
+--------------
+Chart:
+		 =--> Potions (weird effects, mix with ingredients)
+		 |
+		 |
+Unrefined Mana --+--> Refined Mana (slinging, "spell points", instruments)
+		 |
+		 |
+		 =--> Bones (charges, powerful, rare)
+
+Unrefined Mana:
+	Mana usually takes the form of minerals or crystals, but it exists in the atmosphere and the environment. Mana can be collected passively by Mages, or actively by mining its solid form from the ground. Mana can be mixed with other special ingredients to produce potions with unique properties. One race has been so exposed to concentrated amounts of Mana, that it has worked its way into their bones. Consuming Unrefined Mana is dangerous and requires a Toughness Saving Throw when consumed, the DC of which depending on how many pouches of Unrefined Mana you consume [1:8].
+
+Refined Mana:
+	Unrefined Mana can be turned into Refined Mana. Anyone could consume Refined Mana and attempt to sling a spell. It takes 1 Action to consume a pouch of Mana and every pouch of Refined Mana consumed fills your Liver by 1. When you spend an Action to sling a spell, roll a skill check and add your proficiency in Spell Slinging. For every pouch of Mana consumed after the first, add +5 to the roll. When using an instrument, consume and sling spells as normal, except you roll with advantage, and your spell models the design of the Instrument. For example, an Energy spell, when using a Pointed Instrument, could take the shape of a lightning bolt, whereas a Flat Instrument would aid in the making of a fireball.
+
+Instruments:
+	- Point (Sword): Spell releases in a line
+	- Flat (Staff/Orb): Spell releases in a sphere
+	- Arc (Fan/Trumpet): Spell fires in a wave
+
+Spell Types:
+Energy (Fire, Lightning)
+Matter (Water, Earth)
+Life (Growth, Healing)
+Enchantment (Scrolls, Artificing)
+Mind (Thoughts, Dreams)
+Light (Glowing, Shadows)
+Communication (plants, animals)
+
+
+Potions:
+	Potions are created by mixing Unrefined Mana with certain ingredients, of which determine the effect generated when consuming the potion. To make a potion, you need either a set of brewer's tools or alchemist's tools, a pouch of Unrefined Mana, and at least one ingredient relating to the effect desired (A ruby for a fire based effect, or a sticky lizard for a wall-climbing effect).
+
+Bones:
+	Mana Bones come from a very rare, magical race of people, called fae, and their magic comes from the Mana infused in their bones. Unlike Refined Mana, these bones can expel magic more than once. Each bone has a set number of charges and once the last charge is spent, the bone loses its magical capabilities forever. The ability granted by the bone is determined by what creature they came from. The different kinds of fae are:
+	- Teleportation
+	- Invisibility
+	- Giant Strength
+	- Flight
+
+Creatures:
+	One creature, called a Drake, is like a giant lizard that eats solidified Mana. When this creature eats Mana, it stores it in a specialized organ. If the Drake feels threatened, an amount of Mana can be pushed out of this organ and expelled from the mouth, which can take the form of multiple kinds of magic (fire, lightning, thunder wave, acidic spray, etc.).
+
+
+Archetypes' Skills
+--------------------
+Skill list:
+- Awareness
+	- Feeling (3)
+	- Finding (3)
+	- Hiding (3)
+- Mind
+	- Figuring (2)
+	- Lockpicking (3)
+	- Crafting (3)
+- Moxie
+	- Gambling (2)
+	- Performing (2)
+	- Smooth Talking (3)
+- Muscle
+	- Climbing (1)
+	- Hefting (2)
+	- Wrestling (1)
+- Reflex
+	- Carving (3)
+	- Riding (2)
+	- Roping (1)
+- Toughness
+	- Spell Slinging (1)
+
+Archetypes:
+1. Prizefighter: Wrestling, Hefting, Performing, Riding
+2. Pistoleer: Finding, Feeling, Riding, []
+3. Pioneer: Crafting, Roping, Carving, Hefting
+4. Detective: Lockpicking, Hiding, Figuring, Feeling
+5. Doctor: Figuring, Carving, Finding, Lockpicking
+6. Preacher: Smooth Talking, [], [], []
+7. Gambler: Gambling, Smooth Talking, Hiding, Lockpicking
+8. Trapper: Hiding, Climbing, Finding, Crafting
+9. Bartender: Performing, Smooth Talking, Crafting, Gambling
+10. Channeler: Spell Slinging, Feeling, Carving, []
