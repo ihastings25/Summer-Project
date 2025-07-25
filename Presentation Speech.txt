@@ -1,0 +1,78 @@
+Presentation Speech
+
+Abstract
+-----------------
+Artificial intelligence is everywhere. Companies race to create the best AI and institutions are facing the fact that implementing artificial intelligence could make their operations smoother. But many do not understand how these AIs work. How do large-language-models like Chat GPT work? And most of all, how do you make them more efficient? I'm Ian Hastings and I analyzed multiple AI models by comparing their power and energy usage in a variety of circumstances.
+
+Artificial intelligence is everywhere. It has been implemented in grammar checkers, advertisements, and even teaching. Major companies are in an arms race to develop the highest performing artificial intelligence, with some making plans to create or buy energy from a nuclear power plant. But the almost never-ending need for energy comes into question.
+
+(Artificial intelligence is everywhere. It's been implemented into graphic design, advertisements, search engines, and even teaching. Tech companies are in an arms race to develop the most accurate and highest performing AI, paying top dollar for power large-scale data centers. But as we use AI, it uses energy. But what determines the amount of energy used? And how do AIs work in the first place? My name is Ian Hastings, and I analyzed different sizes of AI models and compared their energy and power usage.)
+
+
+Background
+-----------------
+- First: The input is tokenized
+- Then: Relationships are computed
+- Finally: Output is decoded
+
+- Like plinko, the input is shifted based on the parameters and training of the AI
+
+(But lets start by examining how LLMs work. Large Language Models, like Chat GPT take in text as an input and produce an output based on what you gave it. - First, after you give the model a prompt, the model takes the input text and converts the individual words into tokens with their own ID. - Then, the model takes these tokens and computes the relationships between them, based off of its training. - Finally, the. Similar to plinko, the tokenized input is shifted due to weight and led to the right outcome based on parameters and training of the model, before getting decoded into the output.)
+
+
+Methods
+-----------------
+Graphs
+
+The energy and power consumed by the refined model is much higher than the base model.
+
+(My mentors and I started by downloading and running publicly accessible artificial intelligence models: one the generates music, one that converts audio to text, and one that generates images. The graphs displayed here depict the energy usage of two versions of the image generating model: one of which has an added layer of refinement. As you can see, the refined model consumes many more Joules of energy than the base model, with the trend line being far higher than the base models'. The same being true for power. This data was collected from the detailed prompt below, which asks for a realistic dew-covered spider web, reflecting light and colors.)
+
+
+Results
+-----------------
+Prompt: "A hyper realistic photograph of a dew-covered spider web sparkling in the morning sun. Each strand is individually discernible, with water droplets reflecting the vibrant colors of a nearby flower."
+
+Precision vs Consumption
+
+Prompt: "Emotional piano ballad"
+
+(As you can see here, the use of extra power comes with a benefit. The image produced by the refined model has more definition, and the image has a more realistic feel, whereas the basic model has more inconsistent strands. This presents a relationship between precision and consumption, with higher precision requiring higher consumption of energy, and visa-versa.)
+
+
+Next Steps
+-----------------
+- Run more models to compare performance across different sizes
+- Compare very different model structures and their consumption of power
+- Use a performance monitor, like Vampir, to analyze every detail
+
+(The next steps in this area, and what I would have liked to do if I had more time, are comparing the results of different model sizes in order to get a better understanding of how size and precision influences energy consumption, and to experiment with very different model structures to see if some consume more energy than others. Another would be using the program Vampir, or one like it, to intricately record the processes of the running AI.)
+
+
+Acknowledgements
+-----------------
+I'd like to acknowledge my mentors, Oscar Hernandez and Aaron Welch, for their help and contributions to my learning and experience here. Also, for being patient with me. Thank you for your time.
+
+
+Speech:
+Artificial intelligence is everywhere. It's been implemented into graphic design, advertisements, search engines, and even teaching. Tech companies are in an arms race to develop the most accurate and highest performing AI, paying top dollar to power large-scale data centers. Because as we use AI, it uses energy. But what determines the amount of energy used? And how do AIs work in the first place? My name is Ian Hastings, and I analyzed different sizes of AI models and compared their energy and power usage.
+
+But lets start by examining how LLMs work. Large Language Models, like Chat GPT take in text as an input and produce an output based on what you gave it. - First, after you give the model a prompt, the model takes the input text and converts the individual words into tokens with their own ID. - Then, the model takes these tokens and computes the relationships between them, based off of its training. - Finally, the model produces an output. This process is similar to plinko: the tokenized input is shifted due to weight and, based on parameters and training of the model, is led to the right output.
+
+To begin my project, My mentors and I downloaded and ran publicly accessible artificial intelligence models: one the generates music, one that converts audio to text, and one that generates images. The graphs displayed here depict the energy usage of two versions of the image generating model: one of which has an added layer of refinement and larger library. As you can see, the refined model consumes many more Joules of energy than the base model, with the trend line being far higher than the base models'. The same being true for power. This data was collected from the detailed prompt below, which asks for a realistic dew-covered spider web, reflecting light and colors.
+
+The two output images show that the use of extra power comes with a benefit. The image produced by the refined model has more definition, and the image has a more realistic feel, whereas the basic model has more inconsistent strands. This presents a relationship between precision and consumption, with higher precision requiring higher consumption of energy, and visa-versa.
+
+The next steps in this area, and what I would have liked to do if I had more time, are comparing the results of different model sizes in order to get a better understanding of how size and precision influences energy consumption, and to experiment with very different model structures to see if some consume more energy than others. Another would be using the program Vampir, or one like it, to intricately record the processes of the running AI.
+
+I'd like to acknowledge my mentors, Oscar Hernandez and Aaron Welch, for their help and contributions to my learning and experience here. Also, for being patient with me. Thank you for your time.
+
+
+
+
+
+
+
+
+
+
